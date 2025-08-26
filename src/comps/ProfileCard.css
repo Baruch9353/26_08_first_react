@@ -1,0 +1,23 @@
+.profile-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    background-color: #0508a3;
+    color: rgb(240, 246, 229);
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.profile-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}

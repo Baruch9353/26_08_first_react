@@ -1,0 +1,38 @@
+.btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: rgb(194, 231, 253);
+  transition: background-color 0.2s ease, outline 0.2s ease;
+}
+
+.btn--friend {
+  background-color: green;
+}
+
+.btn--friend:hover {
+  background-color: darkgreen;
+}
+
+.btn--teacher {
+  background-color: blue;
+}
+
+.btn--teacher:hover {
+  background-color: darkblue;
+}
+
+.btn--student {
+  background-color: purple;
+}
+
+.btn--student:hover {
+  background-color: indigo;
+}
+
+.btn:focus {
+  outline: 3px solid rgba(0, 0, 0, 0.3);
+  outline-offset: 2px;
+}
